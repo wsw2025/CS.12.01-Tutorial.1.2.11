@@ -12,13 +12,13 @@ b) Write a static method rowSums that calculates the sums of each of the rows in
 
 For example, if mat1 is the array represented by the following table, the call rowSums(mat1) returns the array {16, 32, 28, 20}.
 
-<img width="730" alt="image" src="https://github.com/techarenz/CS.12.01-Tutorial.1.2.11/assets/57818506/e7841a08-72e8-4c7e-9365-7858bffde04b">
+<img width="734" alt="image" src="https://github.com/techarenz/CS.12.01-Tutorial.1.2.11/assets/57818506/e62b2788-d9f8-4273-a826-fff6cb45ebe8">
 
 c) A two-dimensional array is diverse if no two of its rows have entries that sum to the same value. In the following examples, the array mat1 is diverse because each row sum is different, but the array mat2 is not diverse because the first and last rows have the same sum. 
 
-<img width="731" alt="image" src="https://github.com/techarenz/CS.12.01-Tutorial.1.2.11/assets/57818506/961fe80a-8c4b-4d92-b22f-87e66f21d886">
+<img width="737" alt="image" src="https://github.com/techarenz/CS.12.01-Tutorial.1.2.11/assets/57818506/707c9fe2-3c46-4a7a-80a4-e086b2ecab44">
 
-<img width="728" alt="image" src="https://github.com/techarenz/CS.12.01-Tutorial.1.2.11/assets/57818506/5c966332-d0f3-43f4-a84a-2518935469da">
+<img width="732" alt="image" src="https://github.com/techarenz/CS.12.01-Tutorial.1.2.11/assets/57818506/8b80bac3-017f-490c-afd8-834f5e1d73d3">
 
 Write a static method isDiverse that determines whether or not a given two-dimensional array is diverse. The method has one parameter: a two-dimensional array arr2D of int values. The method should return true if all the row sums in the given array are unique; otherwise, it should return false. In the arrays shown above, the call isDiverse(mat1) returns true and the call isDiverse(mat2) returns false. 
 
